@@ -11,6 +11,15 @@
     </a>
 </p>
 
+> [!NOTE]
+> The dark variants have been tweaked to improve tab contrast, primarily for use
+> with collapsed vertical tabs. The selected tab now uses `overlay` instead of
+> `surface`, so the active tab reads as a distinctly lighter box against the
+> darker sidebar.
+>
+> Chrome seems to still tie the selected vertical tab background to the toolbar
+> color, so it picks up the same lighter shade as a trade-off.
+
 ## Usage
 
 **Install via the Chrome Web store**
